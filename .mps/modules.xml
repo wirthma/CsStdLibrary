@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/CsStdLibrary.build/CsStdLibrary.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CsStdLibrary.plugin/CsStdLibrary.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CsStdLibrary/CsStdLibrary.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
