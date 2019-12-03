@@ -32,7 +32,9 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -114,6 +116,20 @@
     <node concept="3b7kt6" id="59tgLTd3XDn" role="10PD9s" />
     <node concept="398rNT" id="59tgLTd3XDo" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="5LtCBUN45Nw" role="398pKh">
+        <node concept="2Ry0Ak" id="5LtCBUN45Nz" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="5LtCBUN45NA" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="5LtCBUN45ND" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="5LtCBUN45NI" role="2Ry0An">
+                <property role="2Ry0Am" value="MPS 2019.3 EAP" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="59tgLTd3XDp" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
@@ -123,17 +139,23 @@
     </node>
     <node concept="2sgV4H" id="XHGnyDzjkm" role="1l3spa">
       <ref role="1l3spb" to="jn6j:4xDflt7HBlw" resolve="CsBaseLanguage" />
-      <node concept="55IIr" id="371JfYfWnBZ" role="2JcizS">
-        <node concept="2Ry0Ak" id="371JfYfWnC5" role="iGT6I">
+      <node concept="55IIr" id="371JfYfWnB6" role="2JcizS">
+        <node concept="2Ry0Ak" id="371JfYfWnB9" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="371JfYfWnC8" role="2Ry0An">
+          <node concept="2Ry0Ak" id="371JfYfWnBc" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="371JfYfWnCd" role="2Ry0An">
-              <property role="2Ry0Am" value=".MPS2019.2" />
-              <node concept="2Ry0Ak" id="371JfYfWnCi" role="2Ry0An">
-                <property role="2Ry0Am" value="config" />
-                <node concept="2Ry0Ak" id="371JfYfWnCn" role="2Ry0An">
-                  <property role="2Ry0Am" value="plugins" />
+            <node concept="2Ry0Ak" id="371JfYfWnBh" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="371JfYfWnBm" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="5yHb4vJYfOm" role="2Ry0An">
+                  <property role="2Ry0Am" value="Library" />
+                  <node concept="2Ry0Ak" id="5yHb4vJYfOr" role="2Ry0An">
+                    <property role="2Ry0Am" value="Application Support" />
+                    <node concept="2Ry0Ak" id="5LtCBUN45Ns" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPSSRC2019.3" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -143,17 +165,23 @@
     </node>
     <node concept="2sgV4H" id="3Kcen$p_$QJ" role="1l3spa">
       <ref role="1l3spb" to="aqoz:5ZQFUMN3sI6" resolve="LangDoc" />
-      <node concept="55IIr" id="371JfYfWnCF" role="2JcizS">
-        <node concept="2Ry0Ak" id="371JfYfWnCG" role="iGT6I">
+      <node concept="55IIr" id="5yHb4vJYKyd" role="2JcizS">
+        <node concept="2Ry0Ak" id="5yHb4vJYKye" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="371JfYfWnCH" role="2Ry0An">
+          <node concept="2Ry0Ak" id="5yHb4vJYKyf" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="371JfYfWnCI" role="2Ry0An">
-              <property role="2Ry0Am" value=".MPS2019.2" />
-              <node concept="2Ry0Ak" id="371JfYfWnCJ" role="2Ry0An">
-                <property role="2Ry0Am" value="config" />
-                <node concept="2Ry0Ak" id="371JfYfWnCK" role="2Ry0An">
-                  <property role="2Ry0Am" value="plugins" />
+            <node concept="2Ry0Ak" id="5yHb4vJYKyg" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="5yHb4vJYKyh" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="5yHb4vJYKyi" role="2Ry0An">
+                  <property role="2Ry0Am" value="Library" />
+                  <node concept="2Ry0Ak" id="5yHb4vJYKyj" role="2Ry0An">
+                    <property role="2Ry0Am" value="Application Support" />
+                    <node concept="2Ry0Ak" id="5LtCBUN45Nu" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPSSRC2019.3" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
