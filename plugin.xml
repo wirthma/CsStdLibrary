@@ -3,9 +3,9 @@
   <name>CsStdLibrary</name>
   <category>Custom Languages</category>
   <description>Stubs corresponding to the C# standard library</description>
-  <version>1.11</version>
+  <version>1.2</version>
   <vendor>Martin Wirth (wirthma@gmail.com), Dalibor Zeman (Zeman-Dalibor@users.noreply.github.com)</vendor>
-  <idea-version since-build="213.1" until-build="221.1"/>
+  <idea-version since-build="222.1" until-build="223.1"/>
 
   <depends>jetbrains.mps.core</depends>
   <depends>jetbrains.mps.build</depends>
